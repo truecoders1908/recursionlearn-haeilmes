@@ -23,6 +23,13 @@ namespace recursionLearn
             // recursive solution (as opposed to iterative)
             return n * Factorial(n - 1);
 
+            /* Recursion is when a method calls itself within the scope of the method,
+             * above you can see that we pass through an integer 'n' to the method from
+             * the main method. However, using the if/else statement we can create a simpler
+             * form of looping the method by calling itself with a number that decreases by
+             * one each time it is called until the number being passed through is equal to 0.
+             */
+
             // e.g.
             // 5! = 5 * 4!
             //  4! = 4 * 3!
